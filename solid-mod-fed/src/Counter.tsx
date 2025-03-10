@@ -25,7 +25,7 @@ export default function Counter() {
           Increment
         </button>
         <button
-          onClick={() => store.setState((c) => c + 1)}
+          onClick={() => store.setState((c) => c - 1)}
           style={styles.decrementButton}
           onMouseDown={(e) => (e.currentTarget.style.transform = "scale(0.95)")}
           onMouseUp={(e) => (e.currentTarget.style.transform = "scale(1)")}
